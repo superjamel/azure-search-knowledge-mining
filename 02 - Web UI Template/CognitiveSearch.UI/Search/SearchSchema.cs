@@ -58,12 +58,12 @@ namespace CognitiveSearch.UI
             {
                 Name = field.Name,
                 Type = type,
-                IsFacetable = field.IsFacetable,
-                IsFilterable = field.IsFilterable,
-                IsKey = field.IsKey,
-                IsRetrievable = field.IsRetrievable,
-                IsSearchable = field.IsSearchable,
-                IsSortable = field.IsSortable
+                IsFacetable = field.IsFacetable.Value,
+                IsFilterable = field.IsFilterable.Value,
+                IsKey = field.IsKey.Value,
+                IsRetrievable = field.IsRetrievable.Value,
+                IsSearchable = field.IsSearchable.Value,
+                IsSortable = field.IsSortable.Value
             };
         }
 
